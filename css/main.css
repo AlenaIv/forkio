@@ -160,7 +160,7 @@ img.logo{
 
 
 .carousel-inner .item{
-    padding: 20px 200px;
+
     text-align: center;
 }
 .carousel-inner img{
@@ -171,6 +171,7 @@ img.logo{
 }
 .user{
     display: inline-block;
+    margin-top: 40px;
 }
 .name{
     float: right;
@@ -197,7 +198,7 @@ img.logo{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #333333;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .caption p{
     padding-top: 40px;
@@ -205,6 +206,9 @@ img.logo{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     color: #9da5ac;
+}
+.caption span{
+    text-align: center;
 }
 .active-caption{
     text-align: center;
@@ -219,6 +223,9 @@ img.logo{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     color: #9da5ac;
+}
+.active-caption span{
+    text-align: center;
 }
 .carousel-indicators{
     display: none;
