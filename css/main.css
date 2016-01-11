@@ -18,6 +18,10 @@ a:hover{
 }
 #main-menu ul{
     padding-right: 25px;
+    background-color: white;
+}
+.collapse.in{
+    width: 100%;
 }
 #main-menu a{
     padding: 40px 25px 20px 25px;
@@ -79,7 +83,7 @@ img.logo{
 .download-button{
     position: relative;
     top: -10px;
-    font-size: 16px;
+    font-size: em(16px);
     padding-left: 45px;
     padding-right: 45px;
 }
